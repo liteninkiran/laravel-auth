@@ -52,7 +52,7 @@
                 </div>
                 
 
-                <button type="submit" class="btn btn-primary">Save changes</button>
+                <button type="submit" class="btn btn-primary">Save Post</button>
                 <a href="{{ route('posts.index') }}" class="btn btn-default">Back</a>
             </form>
         </div>
