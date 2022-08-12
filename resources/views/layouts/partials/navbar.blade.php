@@ -11,6 +11,7 @@
                     @role('admin')
                         <li><a href="{{ route('users.index') }}" class="nav-link px-2 text-white">Users</a></li>
                         <li><a href="{{ route('roles.index') }}" class="nav-link px-2 text-white">Roles</a></li>
+                        <li><a href="{{ route('permissions.index') }}" class="nav-link px-2 text-white">Permissions</a></li>
                     @endrole
                     <li><a href="{{ route('posts.index') }}" class="nav-link px-2 text-white">Posts</a></li>
                 @endauth
