@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use App\Http\Requests\LoginRequest;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -46,11 +47,11 @@ class LoginController extends Controller
      * Handle response after user authenticated
      * 
      * @param Request $request
-     * @param Auth $user
+     * @param User $user
      * 
      * @return Response
      */
-    protected function authenticated(Request $request, Auth $user) 
+    protected function authenticated(Request $request, User $user) 
     {
         return redirect()->intended();
     }
